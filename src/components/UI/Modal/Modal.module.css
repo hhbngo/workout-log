@@ -1,0 +1,32 @@
+.Modal {
+    position: fixed;
+    left: 10%;
+    top: 20%;
+    transform: translateY(100vh);
+    transition: transform ease-out 0.3s;
+    width: 80%;
+    max-width: 500px;
+    background-color: white;
+    min-height: 400px;
+    z-index: 101;
+    border-radius: 4px; 
+    padding: 30px;
+}
+
+.Modal h1 {
+    text-align: center;
+}
+
+.active {
+    transform: translateX(0);
+    transform: translateY(0);
+}
+
+@media (min-width: 575px) {
+    .Modal {
+        left: calc(50% - 250px);
+        min-height: 300px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

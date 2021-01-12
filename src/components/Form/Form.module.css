@@ -1,0 +1,70 @@
+.Container {
+    width: 80vw;
+    margin: 100px auto 0;
+    min-height: 360px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+}
+
+.Container h1 {
+    user-select: none;
+}
+
+.FormContainer {
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
+.Input {
+    width: 85%;
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid rgb(202, 198, 198);
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.Button {
+    margin-top: 10px;
+    background-color: #8aeed8;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border: 2px solid #8ce9d3;
+    cursor: pointer;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.Button:hover {
+    background-color: #6be2c8;
+}
+
+.Button:disabled {
+    background-color: rgb(206, 197, 197);
+    border: 1px solid rgb(189, 185, 185);
+    pointer-events: none;
+}
+
+.Option{
+    font-size: 18px;
+    color: #1890ff;
+    cursor: pointer;
+    width: max-content;
+    margin: 15px auto 15px;
+    user-select: none;
+}

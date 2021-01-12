@@ -1,0 +1,36 @@
+.Home {
+    margin: 60px 0 0 0;
+    position: relative;
+}
+
+.Add_Button {
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    z-index: 99;
+}
+
+.Card {
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    margin: 0 10px 20px !important;
+}
+
+.Flex {
+    width: 87%;
+    margin: 0 auto;
+    max-width: 1600px;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 639px) {
+    .Flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px auto;
+        width: 95%;
+    }
+    .Card { 
+        margin: 0 10px 30px 10px !important;
+        width: 300px;
+    }
+}

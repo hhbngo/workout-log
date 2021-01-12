@@ -1,0 +1,67 @@
+.Container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 500px;
+    padding: 8px 10px 30px 10px;
+}
+
+.Container h1 {
+    text-align: center;
+}
+
+.Accent_Bar {
+    height: 5px;
+    width: 100%;
+}
+
+.Blue {
+    background-color: #1890ff;
+}
+
+.Gray {
+    background-color: #e0e0e0;
+}
+
+.Add_Button {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    z-index: 99;
+}
+
+.Back_Button {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    z-index: 99;
+}
+
+.R_Input {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Save_Settings {
+    color: #1890ff;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 2;
+    width: max-content;
+    margin: 3px auto 0;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Save_Settings:hover {
+    color: #2672b9;
+}
+
+@media (min-width: 575px) {
+    .R_Input {
+        width: 90%;
+    }
+}
